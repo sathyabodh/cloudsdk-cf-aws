@@ -94,7 +94,7 @@
                     <tomeeShutdownPort>8006</tomeeShutdownPort>
                 </configuration>
             </plugin>
-
+<!--
             <plugin>
                 <groupId>com.sap.cloud.s4hana.plugins</groupId>
                 <artifactId>s4sdk-maven-plugin</artifactId>
@@ -107,17 +107,12 @@
                         <configuration>
                             <skipUsageAnalytics>false</skipUsageAnalytics>
                             <generateSalt>true</generateSalt>
-                            <!--
-                            Note: A random salt is auto-generated once the project is built for the first time.
-                            Please keep the generated salt in the POM file, for example, when pushing to git.
-
-                            To learn more, visit: https://blogs.sap.com/2018/10/23/usage-analytics-s4sdk/
-                            -->
                             <salt />
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
+-->
         </plugins>
     </build>
 </project>
